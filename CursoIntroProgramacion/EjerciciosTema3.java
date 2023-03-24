@@ -3,7 +3,16 @@ package CursoIntroProgramacion;
 
 public class EjerciciosTema3 {
 
-    public static void main(String[] args) {
+    public static int sumaDeNumeros(int n1, int n2, int n3){
+
+        return n1 + n2 + n3;
+
+    }
+
+        public static void main(String[] args) {
+
+        System.out.println("Sumando 1 + 2 + 3 ...");  
+        System.out.println((sumaDeNumeros(1,2,3)));    
 
         System.out.println("Creando objeto: miCoche ...");
         Coche miCoche = new Coche();
@@ -40,5 +49,5 @@ class Coche {
 
     }
 
-    
+
 }
