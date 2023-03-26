@@ -1,5 +1,3 @@
-package CursoIntroProgramacion;
-
 
 public class EjerciciosTema3 {
 
