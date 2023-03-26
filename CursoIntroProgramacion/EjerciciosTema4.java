@@ -35,6 +35,7 @@ public class EjerciciosTema4 {
     	
     	// Ejercicio IF
     	
+    	System.out.println("Ejercicio IF...");
     	int numeroIf = 0;
     
     
@@ -48,35 +49,38 @@ public class EjerciciosTema4 {
 
     	// Ejercicio WHILE
     	
+    	System.out.println("Ejercicio WHILE...");
     	int numeroWhile = 0;
     	
     	while (numeroWhile < 3) { 
     		System.out.println(numeroWhile);
-    		numeroWhile =+ 1;
+    		numeroWhile += 1;
     	}
     	
     	// Ejercicio DOWHILE
     	
+    	System.out.println("Ejercicio DOWHILE...");
     	int numeroDoWhile = 3;
     	
     	do {
-    		System.out.println(numeroWhile);
-    		numeroWhile =+ 1;
+    		System.out.println(numeroDoWhile);
+    		numeroDoWhile += 1;
     	} while (numeroDoWhile < 3);
     		
     	// Ejercicio FOR
     	
-    	int numeroFor = 0;
+    	System.out.println("Ejercicio FOR...");
     	
-    	for (int i = 0; i <= 3; i++) {
-    		System.out.println(numeroFor);
-    		numeroFor ++;
-			
+    	
+    	for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
+    		System.out.println(numeroFor);		
 		}
     	
     	// Ejercicio SWITCH
     	
-    	String estacion = "";
+    	System.out.println("Ejercicio SWITCH...");
+    	
+    	String estacion = "invierno";
     	
     	switch (estacion) {
     	
@@ -94,6 +98,10 @@ public class EjerciciosTema4 {
     			
     		case "invierno":
     			System.out.println("Estamos en invierno.");
+    			break;
+    		
+    		default: 
+    			System.out.println("No es una estacion.");
     			break;
     	}
     	
