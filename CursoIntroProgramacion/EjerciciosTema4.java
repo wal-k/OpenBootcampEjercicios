@@ -1,4 +1,3 @@
-import java.util.Iterator;
 
 /* 
 En este ejercicio practicarás las estructuras de control, para ello deberás crear:
